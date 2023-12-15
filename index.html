@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApplication</title>
+    <script defer src="js/client.js"></script>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="images_sounds/chat.png" alt="">
+        <h3 id="greetings">Welcome to the Chat Environment</h3>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right"></div> -->
+        <!-- <div class="message left"></div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" id="messageInp" name="messageInp">
+            <button type="submit" class="btn"><i class="fa-solid fa-paper-plane fa-2xl"></i></button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/c0d7bc9482.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
